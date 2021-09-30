@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 1300px;
+  height: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+}
+
+.container-items {
+  width: 1100px;
+  height: 800px;
+  margin:100px;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 20%;
+  margin-top: 100px;
+}
+
+header > h1 {
+  color: lime;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: lime;
+  text-align: center;
+  padding: 8px;
+}
+
+main {
+  color: white;
+  padding-left: 1px;
+  margin-top: 30px;
+}
+
+main > input {
+  margin-bottom: 10px;
+}
+
+p {
+  color: lightgray;
+}
+
+.address::before {            /* funzione per inserire la freccia prima dell'inizio del paragrafo */
+  content: "\21A6   ";
+}
+
+main > span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.charge {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.one {
+    background-color: #e39f48;
+    width: 270px;
+}
+
+.two {
+  background-color: #029902;
+  width: 500px;
+}
+
+.three {
+  background-color: #8b2d2d;
+  width: 150px;
+}
